@@ -14,49 +14,1959 @@
   "series": [
     {
       "id": 1,
-      "name": "Breaking Bad",
-      "streamingService": "Netflix",
-      "seasons": 5,
-      "episodesPerSeason": [7, 13, 13, 13, 16],
-      "description": "A high school chemistry teacher turned methamphetamine producer.",
-      "category": "Drama",
-      "rating": 9.5,
-      "ratingsCount": 2000,
-      "comments": [
-        {
-          "userId": 1,
-          "comment": "Amazing series with great character development!",
-          "rating": 10
-        },
-        {
-          "userId": 2,
-          "comment": "Very intense and gripping.",
-          "rating": 9
-        }
-      ]
+      "name": "Serie 1",
+      "streamingService": "Apple TV+",
+      "seasons": 2,
+      "episodesPerSeason": 30,
+      "description": "Description of Serie 1",
+      "categoryId": 3
     },
     {
       "id": 2,
-      "name": "Stranger Things",
+      "name": "Serie 2",
+      "streamingService": "Netflix",
+      "seasons": 9,
+      "episodesPerSeason": 216,
+      "description": "Description of Serie 2",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Serie 3",
+      "streamingService": "Netflix",
+      "seasons": 2,
+      "episodesPerSeason": 38,
+      "description": "Description of Serie 3",
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "name": "Serie 4",
+      "streamingService": "Amazon Prime",
+      "seasons": 4,
+      "episodesPerSeason": 48,
+      "description": "Description of Serie 4",
+      "categoryId": 3
+    },
+    {
+      "id": 5,
+      "name": "Serie 5",
+      "streamingService": "Amazon Prime",
+      "seasons": 7,
+      "episodesPerSeason": 154,
+      "description": "Description of Serie 5",
+      "categoryId": 2
+    },
+    {
+      "id": 6,
+      "name": "Serie 6",
+      "streamingService": "Disney+",
+      "seasons": 9,
+      "episodesPerSeason": 153,
+      "description": "Description of Serie 6",
+      "categoryId": 3
+    },
+    {
+      "id": 7,
+      "name": "Serie 7",
+      "streamingService": "Disney+",
+      "seasons": 1,
+      "episodesPerSeason": 11,
+      "description": "Description of Serie 7",
+      "categoryId": 2
+    },
+    {
+      "id": 8,
+      "name": "Serie 8",
+      "streamingService": "Disney+",
+      "seasons": 2,
+      "episodesPerSeason": 46,
+      "description": "Description of Serie 8",
+      "categoryId": 3
+    },
+    {
+      "id": 9,
+      "name": "Serie 9",
+      "streamingService": "Apple TV+",
+      "seasons": 8,
+      "episodesPerSeason": 176,
+      "description": "Description of Serie 9",
+      "categoryId": 1
+    },
+    {
+      "id": 10,
+      "name": "Serie 10",
+      "streamingService": "Netflix",
+      "seasons": 5,
+      "episodesPerSeason": 70,
+      "description": "Description of Serie 10",
+      "categoryId": 1
+    },
+    {
+      "id": 11,
+      "name": "Serie 11",
+      "streamingService": "Apple TV+",
+      "seasons": 4,
+      "episodesPerSeason": 80,
+      "description": "Description of Serie 11",
+      "categoryId": 1
+    },
+    {
+      "id": 12,
+      "name": "Serie 12",
+      "streamingService": "Apple TV+",
+      "seasons": 10,
+      "episodesPerSeason": 200,
+      "description": "Description of Serie 12",
+      "categoryId": 2
+    },
+    {
+      "id": 13,
+      "name": "Serie 13",
+      "streamingService": "HBO",
+      "seasons": 3,
+      "episodesPerSeason": 57,
+      "description": "Description of Serie 13",
+      "categoryId": 2
+    },
+    {
+      "id": 14,
+      "name": "Serie 14",
+      "streamingService": "Amazon Prime",
+      "seasons": 9,
+      "episodesPerSeason": 207,
+      "description": "Description of Serie 14",
+      "categoryId": 3
+    },
+    {
+      "id": 15,
+      "name": "Serie 15",
+      "streamingService": "Netflix",
+      "seasons": 6,
+      "episodesPerSeason": 138,
+      "description": "Description of Serie 15",
+      "categoryId": 2
+    },
+    {
+      "id": 16,
+      "name": "Serie 16",
+      "streamingService": "Disney+",
+      "seasons": 9,
+      "episodesPerSeason": 198,
+      "description": "Description of Serie 16",
+      "categoryId": 2
+    },
+    {
+      "id": 17,
+      "name": "Serie 17",
+      "streamingService": "Apple TV+",
+      "seasons": 9,
+      "episodesPerSeason": 171,
+      "description": "Description of Serie 17",
+      "categoryId": 3
+    },
+    {
+      "id": 18,
+      "name": "Serie 18",
+      "streamingService": "Apple TV+",
+      "seasons": 5,
+      "episodesPerSeason": 115,
+      "description": "Description of Serie 18",
+      "categoryId": 3
+    },
+    {
+      "id": 19,
+      "name": "Serie 19",
+      "streamingService": "Apple TV+",
+      "seasons": 1,
+      "episodesPerSeason": 10,
+      "description": "Description of Serie 19",
+      "categoryId": 3
+    },
+    {
+      "id": 20,
+      "name": "Serie 20",
+      "streamingService": "HBO",
+      "seasons": 4,
+      "episodesPerSeason": 92,
+      "description": "Description of Serie 20",
+      "categoryId": 1
+    },
+    {
+      "id": 21,
+      "name": "Serie 21",
+      "streamingService": "Apple TV+",
+      "seasons": 3,
+      "episodesPerSeason": 39,
+      "description": "Description of Serie 21",
+      "categoryId": 4
+    },
+    {
+      "id": 22,
+      "name": "Serie 22",
+      "streamingService": "Amazon Prime",
+      "seasons": 3,
+      "episodesPerSeason": 69,
+      "description": "Description of Serie 22",
+      "categoryId": 1
+    },
+    {
+      "id": 23,
+      "name": "Serie 23",
+      "streamingService": "Netflix",
+      "seasons": 5,
+      "episodesPerSeason": 110,
+      "description": "Description of Serie 23",
+      "categoryId": 2
+    },
+    {
+      "id": 24,
+      "name": "Serie 24",
+      "streamingService": "Apple TV+",
+      "seasons": 1,
+      "episodesPerSeason": 21,
+      "description": "Description of Serie 24",
+      "categoryId": 1
+    },
+    {
+      "id": 25,
+      "name": "Serie 25",
+      "streamingService": "HBO",
+      "seasons": 6,
+      "episodesPerSeason": 60,
+      "description": "Description of Serie 25",
+      "categoryId": 1
+    },
+    {
+      "id": 26,
+      "name": "Serie 26",
+      "streamingService": "Netflix",
+      "seasons": 8,
+      "episodesPerSeason": 184,
+      "description": "Description of Serie 26",
+      "categoryId": 4
+    },
+    {
+      "id": 27,
+      "name": "Serie 27",
+      "streamingService": "Apple TV+",
+      "seasons": 9,
+      "episodesPerSeason": 126,
+      "description": "Description of Serie 27",
+      "categoryId": 4
+    },
+    {
+      "id": 28,
+      "name": "Serie 28",
+      "streamingService": "Netflix",
+      "seasons": 7,
+      "episodesPerSeason": 105,
+      "description": "Description of Serie 28",
+      "categoryId": 1
+    },
+    {
+      "id": 29,
+      "name": "Serie 29",
+      "streamingService": "Disney+",
+      "seasons": 5,
+      "episodesPerSeason": 115,
+      "description": "Description of Serie 29",
+      "categoryId": 4
+    },
+    {
+      "id": 30,
+      "name": "Serie 30",
+      "streamingService": "HBO",
+      "seasons": 8,
+      "episodesPerSeason": 176,
+      "description": "Description of Serie 30",
+      "categoryId": 1
+    },
+    {
+      "id": 31,
+      "name": "Serie 31",
+      "streamingService": "Apple TV+",
+      "seasons": 3,
+      "episodesPerSeason": 42,
+      "description": "Description of Serie 31",
+      "categoryId": 4
+    },
+    {
+      "id": 32,
+      "name": "Serie 32",
+      "streamingService": "Apple TV+",
+      "seasons": 9,
+      "episodesPerSeason": 171,
+      "description": "Description of Serie 32",
+      "categoryId": 1
+    },
+    {
+      "id": 33,
+      "name": "Serie 33",
+      "streamingService": "Amazon Prime",
+      "seasons": 9,
+      "episodesPerSeason": 117,
+      "description": "Description of Serie 33",
+      "categoryId": 2
+    },
+    {
+      "id": 34,
+      "name": "Serie 34",
+      "streamingService": "Disney+",
+      "seasons": 8,
+      "episodesPerSeason": 192,
+      "description": "Description of Serie 34",
+      "categoryId": 3
+    },
+    {
+      "id": 35,
+      "name": "Serie 35",
+      "streamingService": "Apple TV+",
+      "seasons": 8,
+      "episodesPerSeason": 112,
+      "description": "Description of Serie 35",
+      "categoryId": 4
+    },
+    {
+      "id": 36,
+      "name": "Serie 36",
+      "streamingService": "Disney+",
+      "seasons": 1,
+      "episodesPerSeason": 22,
+      "description": "Description of Serie 36",
+      "categoryId": 3
+    },
+    {
+      "id": 37,
+      "name": "Serie 37",
+      "streamingService": "HBO",
+      "seasons": 2,
+      "episodesPerSeason": 24,
+      "description": "Description of Serie 37",
+      "categoryId": 1
+    },
+    {
+      "id": 38,
+      "name": "Serie 38",
+      "streamingService": "HBO",
+      "seasons": 1,
+      "episodesPerSeason": 18,
+      "description": "Description of Serie 38",
+      "categoryId": 3
+    },
+    {
+      "id": 39,
+      "name": "Serie 39",
+      "streamingService": "Disney+",
+      "seasons": 3,
+      "episodesPerSeason": 42,
+      "description": "Description of Serie 39",
+      "categoryId": 4
+    },
+    {
+      "id": 40,
+      "name": "Serie 40",
+      "streamingService": "Apple TV+",
+      "seasons": 1,
+      "episodesPerSeason": 17,
+      "description": "Description of Serie 40",
+      "categoryId": 3
+    },
+    {
+      "id": 41,
+      "name": "Serie 41",
+      "streamingService": "Amazon Prime",
+      "seasons": 6,
+      "episodesPerSeason": 66,
+      "description": "Description of Serie 41",
+      "categoryId": 2
+    },
+    {
+      "id": 42,
+      "name": "Serie 42",
+      "streamingService": "Amazon Prime",
+      "seasons": 7,
+      "episodesPerSeason": 133,
+      "description": "Description of Serie 42",
+      "categoryId": 2
+    },
+    {
+      "id": 43,
+      "name": "Serie 43",
+      "streamingService": "Amazon Prime",
+      "seasons": 10,
+      "episodesPerSeason": 120,
+      "description": "Description of Serie 43",
+      "categoryId": 1
+    },
+    {
+      "id": 44,
+      "name": "Serie 44",
+      "streamingService": "HBO",
+      "seasons": 1,
+      "episodesPerSeason": 12,
+      "description": "Description of Serie 44",
+      "categoryId": 2
+    },
+    {
+      "id": 45,
+      "name": "Serie 45",
+      "streamingService": "Apple TV+",
+      "seasons": 4,
+      "episodesPerSeason": 96,
+      "description": "Description of Serie 45",
+      "categoryId": 2
+    },
+    {
+      "id": 46,
+      "name": "Serie 46",
+      "streamingService": "Netflix",
+      "seasons": 5,
+      "episodesPerSeason": 75,
+      "description": "Description of Serie 46",
+      "categoryId": 2
+    },
+    {
+      "id": 47,
+      "name": "Serie 47",
       "streamingService": "Netflix",
       "seasons": 4,
-      "episodesPerSeason": [8, 9, 8, 9],
-      "description": "A group of kids in the 80s dealing with supernatural events in their small town.",
-      "category": "Horror",
-      "rating": 8.7,
-      "ratingsCount": 1500,
-      "comments": [
-        {
-          "userId": 1,
-          "comment": "Nostalgic and thrilling!",
-          "rating": 9
-        },
-        {
-          "userId": 2,
-          "comment": "Love the 80s vibe.",
-          "rating": 8
-        }
-      ]
+      "episodesPerSeason": 40,
+      "description": "Description of Serie 47",
+      "categoryId": 4
+    },
+    {
+      "id": 48,
+      "name": "Serie 48",
+      "streamingService": "Amazon Prime",
+      "seasons": 1,
+      "episodesPerSeason": 17,
+      "description": "Description of Serie 48",
+      "categoryId": 3
+    },
+    {
+      "id": 49,
+      "name": "Serie 49",
+      "streamingService": "Apple TV+",
+      "seasons": 8,
+      "episodesPerSeason": 168,
+      "description": "Description of Serie 49",
+      "categoryId": 1
+    },
+    {
+      "id": 50,
+      "name": "Serie 50",
+      "streamingService": "Amazon Prime",
+      "seasons": 7,
+      "episodesPerSeason": 98,
+      "description": "Description of Serie 50",
+      "categoryId": 2
+    },
+    {
+      "name": "Naruto",
+      "streamingService": "Netflix",
+      "seasons": 2,
+      "episodesPerSeason": 120,
+      "description": "Viene de la Aldea de la Hoja",
+      "category": 2,
+      "id": 51
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Drama"
+    },
+    {
+      "id": 2,
+      "name": "Horror"
+    },
+    {
+      "id": 3,
+      "name": "Action"
+    },
+    {
+      "id": 4,
+      "name": "Comedy"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "serieId": 1,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 1",
+      "rating": 8
+    },
+    {
+      "id": 2,
+      "serieId": 1,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 1",
+      "rating": 9
+    },
+    {
+      "id": 3,
+      "serieId": 1,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 1",
+      "rating": 7
+    },
+    {
+      "id": 4,
+      "serieId": 1,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 1",
+      "rating": 8
+    },
+    {
+      "id": 5,
+      "serieId": 1,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 1",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "serieId": 2,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 2",
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "serieId": 2,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 2",
+      "rating": 1
+    },
+    {
+      "id": 8,
+      "serieId": 2,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 2",
+      "rating": 6
+    },
+    {
+      "id": 9,
+      "serieId": 2,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 2",
+      "rating": 8
+    },
+    {
+      "id": 10,
+      "serieId": 3,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 3",
+      "rating": 4
+    },
+    {
+      "id": 11,
+      "serieId": 3,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 3",
+      "rating": 10
+    },
+    {
+      "id": 12,
+      "serieId": 3,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 3",
+      "rating": 4
+    },
+    {
+      "id": 13,
+      "serieId": 3,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 3",
+      "rating": 3
+    },
+    {
+      "id": 14,
+      "serieId": 4,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 4",
+      "rating": 9
+    },
+    {
+      "id": 15,
+      "serieId": 4,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 4",
+      "rating": 2
+    },
+    {
+      "id": 16,
+      "serieId": 4,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 4",
+      "rating": 4
+    },
+    {
+      "id": 17,
+      "serieId": 5,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 5",
+      "rating": 10
+    },
+    {
+      "id": 18,
+      "serieId": 5,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 5",
+      "rating": 10
+    },
+    {
+      "id": 19,
+      "serieId": 5,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 5",
+      "rating": 8
+    },
+    {
+      "id": 20,
+      "serieId": 6,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 6",
+      "rating": 9
+    },
+    {
+      "id": 21,
+      "serieId": 6,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 6",
+      "rating": 5
+    },
+    {
+      "id": 22,
+      "serieId": 6,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 6",
+      "rating": 7
+    },
+    {
+      "id": 23,
+      "serieId": 6,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 6",
+      "rating": 6
+    },
+    {
+      "id": 24,
+      "serieId": 6,
+      "userId": 1,
+      "comment": "Comment 5 on Serie 6",
+      "rating": 8
+    },
+    {
+      "id": 25,
+      "serieId": 7,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 7",
+      "rating": 9
+    },
+    {
+      "id": 26,
+      "serieId": 7,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 7",
+      "rating": 4
+    },
+    {
+      "id": 27,
+      "serieId": 7,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 7",
+      "rating": 6
+    },
+    {
+      "id": 28,
+      "serieId": 7,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 7",
+      "rating": 10
+    },
+    {
+      "id": 29,
+      "serieId": 7,
+      "userId": 1,
+      "comment": "Comment 5 on Serie 7",
+      "rating": 3
+    },
+    {
+      "id": 30,
+      "serieId": 8,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 8",
+      "rating": 6
+    },
+    {
+      "id": 31,
+      "serieId": 8,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 8",
+      "rating": 3
+    },
+    {
+      "id": 32,
+      "serieId": 8,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 8",
+      "rating": 5
+    },
+    {
+      "id": 33,
+      "serieId": 9,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 9",
+      "rating": 4
+    },
+    {
+      "id": 34,
+      "serieId": 9,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 9",
+      "rating": 8
+    },
+    {
+      "id": 35,
+      "serieId": 9,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 9",
+      "rating": 8
+    },
+    {
+      "id": 36,
+      "serieId": 9,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 9",
+      "rating": 9
+    },
+    {
+      "id": 37,
+      "serieId": 10,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 10",
+      "rating": 4
+    },
+    {
+      "id": 38,
+      "serieId": 10,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 10",
+      "rating": 7
+    },
+    {
+      "id": 39,
+      "serieId": 10,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 10",
+      "rating": 4
+    },
+    {
+      "id": 40,
+      "serieId": 10,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 10",
+      "rating": 6
+    },
+    {
+      "id": 41,
+      "serieId": 11,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 11",
+      "rating": 9
+    },
+    {
+      "id": 42,
+      "serieId": 11,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 11",
+      "rating": 2
+    },
+    {
+      "id": 43,
+      "serieId": 11,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 11",
+      "rating": 1
+    },
+    {
+      "id": 44,
+      "serieId": 11,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 11",
+      "rating": 1
+    },
+    {
+      "id": 45,
+      "serieId": 11,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 11",
+      "rating": 6
+    },
+    {
+      "id": 46,
+      "serieId": 12,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 12",
+      "rating": 3
+    },
+    {
+      "id": 47,
+      "serieId": 12,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 12",
+      "rating": 8
+    },
+    {
+      "id": 48,
+      "serieId": 12,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 12",
+      "rating": 5
+    },
+    {
+      "id": 49,
+      "serieId": 13,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 13",
+      "rating": 4
+    },
+    {
+      "id": 50,
+      "serieId": 13,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 13",
+      "rating": 5
+    },
+    {
+      "id": 51,
+      "serieId": 13,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 13",
+      "rating": 9
+    },
+    {
+      "id": 52,
+      "serieId": 13,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 13",
+      "rating": 6
+    },
+    {
+      "id": 53,
+      "serieId": 14,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 14",
+      "rating": 3
+    },
+    {
+      "id": 54,
+      "serieId": 14,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 14",
+      "rating": 1
+    },
+    {
+      "id": 55,
+      "serieId": 14,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 14",
+      "rating": 5
+    },
+    {
+      "id": 56,
+      "serieId": 14,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 14",
+      "rating": 3
+    },
+    {
+      "id": 57,
+      "serieId": 15,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 15",
+      "rating": 6
+    },
+    {
+      "id": 58,
+      "serieId": 15,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 15",
+      "rating": 3
+    },
+    {
+      "id": 59,
+      "serieId": 15,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 15",
+      "rating": 1
+    },
+    {
+      "id": 60,
+      "serieId": 15,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 15",
+      "rating": 7
+    },
+    {
+      "id": 61,
+      "serieId": 15,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 15",
+      "rating": 7
+    },
+    {
+      "id": 62,
+      "serieId": 16,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 16",
+      "rating": 4
+    },
+    {
+      "id": 63,
+      "serieId": 16,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 16",
+      "rating": 10
+    },
+    {
+      "id": 64,
+      "serieId": 16,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 16",
+      "rating": 5
+    },
+    {
+      "id": 65,
+      "serieId": 16,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 16",
+      "rating": 6
+    },
+    {
+      "id": 66,
+      "serieId": 17,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 17",
+      "rating": 7
+    },
+    {
+      "id": 67,
+      "serieId": 17,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 17",
+      "rating": 3
+    },
+    {
+      "id": 68,
+      "serieId": 17,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 17",
+      "rating": 5
+    },
+    {
+      "id": 69,
+      "serieId": 17,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 17",
+      "rating": 1
+    },
+    {
+      "id": 70,
+      "serieId": 17,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 17",
+      "rating": 3
+    },
+    {
+      "id": 71,
+      "serieId": 18,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 18",
+      "rating": 8
+    },
+    {
+      "id": 72,
+      "serieId": 18,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 18",
+      "rating": 3
+    },
+    {
+      "id": 73,
+      "serieId": 18,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 18",
+      "rating": 4
+    },
+    {
+      "id": 74,
+      "serieId": 18,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 18",
+      "rating": 10
+    },
+    {
+      "id": 75,
+      "serieId": 18,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 18",
+      "rating": 3
+    },
+    {
+      "id": 76,
+      "serieId": 19,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 19",
+      "rating": 7
+    },
+    {
+      "id": 77,
+      "serieId": 19,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 19",
+      "rating": 6
+    },
+    {
+      "id": 78,
+      "serieId": 19,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 19",
+      "rating": 5
+    },
+    {
+      "id": 79,
+      "serieId": 20,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 20",
+      "rating": 6
+    },
+    {
+      "id": 80,
+      "serieId": 20,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 20",
+      "rating": 4
+    },
+    {
+      "id": 81,
+      "serieId": 20,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 20",
+      "rating": 2
+    },
+    {
+      "id": 82,
+      "serieId": 20,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 20",
+      "rating": 7
+    },
+    {
+      "id": 83,
+      "serieId": 20,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 20",
+      "rating": 10
+    },
+    {
+      "id": 84,
+      "serieId": 21,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 21",
+      "rating": 4
+    },
+    {
+      "id": 85,
+      "serieId": 21,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 21",
+      "rating": 10
+    },
+    {
+      "id": 86,
+      "serieId": 21,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 21",
+      "rating": 5
+    },
+    {
+      "id": 87,
+      "serieId": 21,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 21",
+      "rating": 4
+    },
+    {
+      "id": 88,
+      "serieId": 21,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 21",
+      "rating": 9
+    },
+    {
+      "id": 89,
+      "serieId": 22,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 22",
+      "rating": 3
+    },
+    {
+      "id": 90,
+      "serieId": 22,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 22",
+      "rating": 4
+    },
+    {
+      "id": 91,
+      "serieId": 22,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 22",
+      "rating": 4
+    },
+    {
+      "id": 92,
+      "serieId": 22,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 22",
+      "rating": 10
+    },
+    {
+      "id": 93,
+      "serieId": 23,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 23",
+      "rating": 3
+    },
+    {
+      "id": 94,
+      "serieId": 23,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 23",
+      "rating": 1
+    },
+    {
+      "id": 95,
+      "serieId": 23,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 23",
+      "rating": 6
+    },
+    {
+      "id": 96,
+      "serieId": 23,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 23",
+      "rating": 3
+    },
+    {
+      "id": 97,
+      "serieId": 24,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 24",
+      "rating": 4
+    },
+    {
+      "id": 98,
+      "serieId": 24,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 24",
+      "rating": 3
+    },
+    {
+      "id": 99,
+      "serieId": 24,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 24",
+      "rating": 9
+    },
+    {
+      "id": 100,
+      "serieId": 24,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 24",
+      "rating": 9
+    },
+    {
+      "id": 101,
+      "serieId": 25,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 25",
+      "rating": 3
+    },
+    {
+      "id": 102,
+      "serieId": 25,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 25",
+      "rating": 2
+    },
+    {
+      "id": 103,
+      "serieId": 25,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 25",
+      "rating": 5
+    },
+    {
+      "id": 104,
+      "serieId": 25,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 25",
+      "rating": 8
+    },
+    {
+      "id": 105,
+      "serieId": 25,
+      "userId": 1,
+      "comment": "Comment 5 on Serie 25",
+      "rating": 3
+    },
+    {
+      "id": 106,
+      "serieId": 26,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 26",
+      "rating": 1
+    },
+    {
+      "id": 107,
+      "serieId": 26,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 26",
+      "rating": 6
+    },
+    {
+      "id": 108,
+      "serieId": 26,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 26",
+      "rating": 4
+    },
+    {
+      "id": 109,
+      "serieId": 26,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 26",
+      "rating": 9
+    },
+    {
+      "id": 110,
+      "serieId": 26,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 26",
+      "rating": 8
+    },
+    {
+      "id": 111,
+      "serieId": 27,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 27",
+      "rating": 1
+    },
+    {
+      "id": 112,
+      "serieId": 27,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 27",
+      "rating": 8
+    },
+    {
+      "id": 113,
+      "serieId": 27,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 27",
+      "rating": 9
+    },
+    {
+      "id": 114,
+      "serieId": 27,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 27",
+      "rating": 4
+    },
+    {
+      "id": 115,
+      "serieId": 28,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 28",
+      "rating": 9
+    },
+    {
+      "id": 116,
+      "serieId": 28,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 28",
+      "rating": 4
+    },
+    {
+      "id": 117,
+      "serieId": 28,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 28",
+      "rating": 7
+    },
+    {
+      "id": 118,
+      "serieId": 28,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 28",
+      "rating": 5
+    },
+    {
+      "id": 119,
+      "serieId": 29,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 29",
+      "rating": 10
+    },
+    {
+      "id": 120,
+      "serieId": 29,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 29",
+      "rating": 3
+    },
+    {
+      "id": 121,
+      "serieId": 29,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 29",
+      "rating": 9
+    },
+    {
+      "id": 122,
+      "serieId": 29,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 29",
+      "rating": 7
+    },
+    {
+      "id": 123,
+      "serieId": 30,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 30",
+      "rating": 3
+    },
+    {
+      "id": 124,
+      "serieId": 30,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 30",
+      "rating": 5
+    },
+    {
+      "id": 125,
+      "serieId": 30,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 30",
+      "rating": 1
+    },
+    {
+      "id": 126,
+      "serieId": 30,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 30",
+      "rating": 9
+    },
+    {
+      "id": 127,
+      "serieId": 30,
+      "userId": 1,
+      "comment": "Comment 5 on Serie 30",
+      "rating": 7
+    },
+    {
+      "id": 128,
+      "serieId": 31,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 31",
+      "rating": 7
+    },
+    {
+      "id": 129,
+      "serieId": 31,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 31",
+      "rating": 5
+    },
+    {
+      "id": 130,
+      "serieId": 31,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 31",
+      "rating": 6
+    },
+    {
+      "id": 131,
+      "serieId": 32,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 32",
+      "rating": 6
+    },
+    {
+      "id": 132,
+      "serieId": 32,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 32",
+      "rating": 7
+    },
+    {
+      "id": 133,
+      "serieId": 32,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 32",
+      "rating": 3
+    },
+    {
+      "id": 134,
+      "serieId": 32,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 32",
+      "rating": 1
+    },
+    {
+      "id": 135,
+      "serieId": 32,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 32",
+      "rating": 2
+    },
+    {
+      "id": 136,
+      "serieId": 33,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 33",
+      "rating": 3
+    },
+    {
+      "id": 137,
+      "serieId": 33,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 33",
+      "rating": 3
+    },
+    {
+      "id": 138,
+      "serieId": 33,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 33",
+      "rating": 6
+    },
+    {
+      "id": 139,
+      "serieId": 33,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 33",
+      "rating": 4
+    },
+    {
+      "id": 140,
+      "serieId": 33,
+      "userId": 1,
+      "comment": "Comment 5 on Serie 33",
+      "rating": 8
+    },
+    {
+      "id": 141,
+      "serieId": 34,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 34",
+      "rating": 3
+    },
+    {
+      "id": 142,
+      "serieId": 34,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 34",
+      "rating": 2
+    },
+    {
+      "id": 143,
+      "serieId": 34,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 34",
+      "rating": 2
+    },
+    {
+      "id": 144,
+      "serieId": 34,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 34",
+      "rating": 3
+    },
+    {
+      "id": 145,
+      "serieId": 35,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 35",
+      "rating": 5
+    },
+    {
+      "id": 146,
+      "serieId": 35,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 35",
+      "rating": 4
+    },
+    {
+      "id": 147,
+      "serieId": 35,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 35",
+      "rating": 2
+    },
+    {
+      "id": 148,
+      "serieId": 35,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 35",
+      "rating": 6
+    },
+    {
+      "id": 149,
+      "serieId": 35,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 35",
+      "rating": 8
+    },
+    {
+      "id": 150,
+      "serieId": 36,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 36",
+      "rating": 9
+    },
+    {
+      "id": 151,
+      "serieId": 36,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 36",
+      "rating": 1
+    },
+    {
+      "id": 152,
+      "serieId": 36,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 36",
+      "rating": 6
+    },
+    {
+      "id": 153,
+      "serieId": 36,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 36",
+      "rating": 8
+    },
+    {
+      "id": 154,
+      "serieId": 37,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 37",
+      "rating": 2
+    },
+    {
+      "id": 155,
+      "serieId": 37,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 37",
+      "rating": 3
+    },
+    {
+      "id": 156,
+      "serieId": 37,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 37",
+      "rating": 10
+    },
+    {
+      "id": 157,
+      "serieId": 37,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 37",
+      "rating": 9
+    },
+    {
+      "id": 158,
+      "serieId": 37,
+      "userId": 1,
+      "comment": "Comment 5 on Serie 37",
+      "rating": 4
+    },
+    {
+      "id": 159,
+      "serieId": 38,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 38",
+      "rating": 4
+    },
+    {
+      "id": 160,
+      "serieId": 38,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 38",
+      "rating": 10
+    },
+    {
+      "id": 161,
+      "serieId": 38,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 38",
+      "rating": 2
+    },
+    {
+      "id": 162,
+      "serieId": 38,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 38",
+      "rating": 7
+    },
+    {
+      "id": 163,
+      "serieId": 39,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 39",
+      "rating": 3
+    },
+    {
+      "id": 164,
+      "serieId": 39,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 39",
+      "rating": 3
+    },
+    {
+      "id": 165,
+      "serieId": 39,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 39",
+      "rating": 8
+    },
+    {
+      "id": 166,
+      "serieId": 39,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 39",
+      "rating": 1
+    },
+    {
+      "id": 167,
+      "serieId": 40,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 40",
+      "rating": 9
+    },
+    {
+      "id": 168,
+      "serieId": 40,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 40",
+      "rating": 3
+    },
+    {
+      "id": 169,
+      "serieId": 40,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 40",
+      "rating": 3
+    },
+    {
+      "id": 170,
+      "serieId": 41,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 41",
+      "rating": 1
+    },
+    {
+      "id": 171,
+      "serieId": 41,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 41",
+      "rating": 5
+    },
+    {
+      "id": 172,
+      "serieId": 41,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 41",
+      "rating": 5
+    },
+    {
+      "id": 173,
+      "serieId": 42,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 42",
+      "rating": 9
+    },
+    {
+      "id": 174,
+      "serieId": 42,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 42",
+      "rating": 4
+    },
+    {
+      "id": 175,
+      "serieId": 42,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 42",
+      "rating": 4
+    },
+    {
+      "id": 176,
+      "serieId": 42,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 42",
+      "rating": 3
+    },
+    {
+      "id": 177,
+      "serieId": 43,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 43",
+      "rating": 6
+    },
+    {
+      "id": 178,
+      "serieId": 43,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 43",
+      "rating": 7
+    },
+    {
+      "id": 179,
+      "serieId": 43,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 43",
+      "rating": 9
+    },
+    {
+      "id": 180,
+      "serieId": 43,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 43",
+      "rating": 7
+    },
+    {
+      "id": 181,
+      "serieId": 43,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 43",
+      "rating": 5
+    },
+    {
+      "id": 182,
+      "serieId": 44,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 44",
+      "rating": 4
+    },
+    {
+      "id": 183,
+      "serieId": 44,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 44",
+      "rating": 4
+    },
+    {
+      "id": 184,
+      "serieId": 44,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 44",
+      "rating": 2
+    },
+    {
+      "id": 185,
+      "serieId": 44,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 44",
+      "rating": 9
+    },
+    {
+      "id": 186,
+      "serieId": 45,
+      "userId": 2,
+      "comment": "Comment 1 on Serie 45",
+      "rating": 8
+    },
+    {
+      "id": 187,
+      "serieId": 45,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 45",
+      "rating": 1
+    },
+    {
+      "id": 188,
+      "serieId": 45,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 45",
+      "rating": 6
+    },
+    {
+      "id": 189,
+      "serieId": 45,
+      "userId": 1,
+      "comment": "Comment 4 on Serie 45",
+      "rating": 7
+    },
+    {
+      "id": 190,
+      "serieId": 45,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 45",
+      "rating": 5
+    },
+    {
+      "id": 191,
+      "serieId": 46,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 46",
+      "rating": 6
+    },
+    {
+      "id": 192,
+      "serieId": 46,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 46",
+      "rating": 8
+    },
+    {
+      "id": 193,
+      "serieId": 46,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 46",
+      "rating": 3
+    },
+    {
+      "id": 194,
+      "serieId": 47,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 47",
+      "rating": 7
+    },
+    {
+      "id": 195,
+      "serieId": 47,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 47",
+      "rating": 3
+    },
+    {
+      "id": 196,
+      "serieId": 47,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 47",
+      "rating": 10
+    },
+    {
+      "id": 197,
+      "serieId": 47,
+      "userId": 2,
+      "comment": "Comment 4 on Serie 47",
+      "rating": 5
+    },
+    {
+      "id": 198,
+      "serieId": 47,
+      "userId": 2,
+      "comment": "Comment 5 on Serie 47",
+      "rating": 7
+    },
+    {
+      "id": 199,
+      "serieId": 48,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 48",
+      "rating": 1
+    },
+    {
+      "id": 200,
+      "serieId": 48,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 48",
+      "rating": 5
+    },
+    {
+      "id": 201,
+      "serieId": 48,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 48",
+      "rating": 7
+    },
+    {
+      "id": 202,
+      "serieId": 49,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 49",
+      "rating": 4
+    },
+    {
+      "id": 203,
+      "serieId": 49,
+      "userId": 1,
+      "comment": "Comment 2 on Serie 49",
+      "rating": 7
+    },
+    {
+      "id": 204,
+      "serieId": 49,
+      "userId": 1,
+      "comment": "Comment 3 on Serie 49",
+      "rating": 10
+    },
+    {
+      "id": 205,
+      "serieId": 50,
+      "userId": 1,
+      "comment": "Comment 1 on Serie 50",
+      "rating": 3
+    },
+    {
+      "id": 206,
+      "serieId": 50,
+      "userId": 2,
+      "comment": "Comment 2 on Serie 50",
+      "rating": 9
+    },
+    {
+      "id": 207,
+      "serieId": 50,
+      "userId": 2,
+      "comment": "Comment 3 on Serie 50",
+      "rating": 3
+    },
+    {
+      "serieId": 1,
+      "userId": 1,
+      "comment": "Probando comentario",
+      "rating": 7,
+      "id": 208
+    },
+    {
+      "serieId": 1,
+      "userId": 1,
+      "comment": "Probando comentario 2",
+      "rating": 7,
+      "id": 209
+    },
+    {
+      "serieId": 1,
+      "userId": 1,
+      "comment": "Probando comentario 3",
+      "rating": 5,
+      "id": 210
+    },
+    {
+      "serieId": 51,
+      "userId": 1,
+      "comment": "Muy buena",
+      "rating": 9,
+      "id": 211
     }
   ]
 }
