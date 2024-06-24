@@ -1,10 +1,12 @@
 import { CommentSection } from "./CommentSection";
 import { getComments } from "@/app/actions/comments-actions";
+import { useSessionStore } from "@/app/providers/session-store-provider";
 import type { Serie, Comment } from "@/app/interfaces/series-interfaces";
 import {
   calculateAverageRating,
   getTotalComments,
 } from "@/app/helpers/series-helper";
+import { NotLogged } from "../NotLogged";
 
 type Props = {
   serie: Serie;

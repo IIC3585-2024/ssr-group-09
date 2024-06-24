@@ -1,4 +1,5 @@
 import { createStore } from 'zustand/vanilla';
+import { getCookie, setCookie, deleteCookie } from 'cookies-next';
 
 export type SessionState = {
   user: { id: number, username: string } | null;
@@ -14,8 +15,8 @@ export type SessionStore = SessionState & SessionActions;
 
 export const defaultSessionState: SessionState = {
   user: {
-    id: localStorage.getItem('userId') ? parseInt(localStorage.getItem('userId') as string) : 0,
-    username: localStorage.getItem('username') || '',
+    id: parseInt(getCookie('userId')?? '') || 0,
+    username: getCookie('username') || ''
   },
 }
 
@@ -29,8 +30,8 @@ export const createSessionStore = (
       const users = await response.json();
       if (users.length > 0) {
         const user = users[0];
-        localStorage.setItem('userId', user.id);
-        localStorage.setItem('username', user.username);
+        setCookie('userId', user.id.toString());
+        setCookie('username', user.username);
         set({ user: user });
         return true;
       } else {
@@ -38,9 +39,9 @@ export const createSessionStore = (
       }
     },
     logout: () => {
-      localStorage.removeItem('userId');
-      localStorage.removeItem('username');
-      set({ user: null });
+      deleteCookie('userId');
+      deleteCookie('username');
+      set({ user: { id: 0, username: '' } });
     }
   }));
 }

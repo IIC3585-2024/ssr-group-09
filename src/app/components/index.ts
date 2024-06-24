@@ -6,3 +6,4 @@ export { Filter } from './series/Filter';
 export { NewSerie } from './series/NewSerie';
 export { Login } from './auth/Login';
 export { HomeGrid } from './HomeGrid';
+export { NotLogged } from './NotLogged';
