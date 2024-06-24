@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { Comment } from "@/app/interfaces/series-interfaces";
 import { createComment } from "@/app/actions/comments-actions";
 import { useSessionStore } from '@/app/providers/session-store-provider';
+import { NotLogged } from "../NotLogged";
 
 type Props = {
   comments: Comment[],
@@ -14,6 +15,12 @@ export const CommentSection = ({ comments, seriesId } : Props) => {
   const { user } = useSessionStore((state) => state);
   const [comment, setComment] = useState("");
   const [rating, setRating] = useState(0);
+  
+  if (user?.id == 0) {
+    return (
+      <NotLogged />
+    )
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -47,8 +54,9 @@ export const CommentSection = ({ comments, seriesId } : Props) => {
       <h4 className="font-bold mb-4">Comments</h4>
       {comments.map((comment, index) => (
         <div key={index} className="mb-4">
-          <p className="text-gray-800">{comment.comment}</p>
-          <span className="text-sm text-gray-600">{comment.userId}</span>
+          <h5 className="font-bold">{comment.user.username}</h5>
+          <p>{comment.comment}</p>
+          <p>Rating: {comment.rating}</p>
         </div>
       ))}
       <form className="mt-4" onSubmit={handleSubmit}>

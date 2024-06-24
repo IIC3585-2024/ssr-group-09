@@ -15,6 +15,10 @@ export interface Comment {
   userId: number,
   comment: string,
   rating: number
+  user: {
+    id: number,
+    username: string,
+  }
 }
 
 export interface NewSerie {

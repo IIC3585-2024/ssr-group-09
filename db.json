@@ -2,13 +2,18 @@
   "users": [
     {
       "id": 1,
-      "username": "user1",
+      "username": "jane_doe",
       "password": "password1"
     },
     {
       "id": 2,
-      "username": "user2",
+      "username": "john_smith",
       "password": "password2"
+    },
+    {
+      "id": 3,
+      "username": "jane_smith",
+      "password": "password3"
     }
   ],
   "series": [
@@ -1967,6 +1972,13 @@
       "comment": "Muy buena",
       "rating": 9,
       "id": 211
+    },
+    {
+      "serieId": 1,
+      "userId": 1,
+      "comment": "Buena Serie!",
+      "rating": 9,
+      "id": 212
     }
   ]
 }

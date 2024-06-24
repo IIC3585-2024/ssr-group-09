@@ -5,7 +5,7 @@ import { NewComment } from '../interfaces/series-interfaces';
 
 export const getComments = async (serieId: number) => {
   try {
-    const response = await fetch(`http://localhost:3001/comments?serieId=${serieId}`, {
+    const response = await fetch(`http://localhost:3001/comments?serieId=${serieId}&_expand=user`, {
       next: {
         tags: ["comments"],
       }

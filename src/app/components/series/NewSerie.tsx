@@ -1,10 +1,14 @@
 'use client';
 
+import { useSessionStore } from "@/app/providers/session-store-provider";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { createSerie } from "@/app/actions/series-actions"
+import { NotLogged } from "../NotLogged";
+
 
 export const NewSerie = () => {
+  const { user } = useSessionStore((state) => state);
   const [name, setName] = useState('');
   const [streamingService, setStreamingService] = useState('');
   const [seasons, setSeasons] = useState('');
@@ -15,8 +19,6 @@ export const NewSerie = () => {
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
-
-    console.log(name, streamingService, seasons, episodesPerSeason, description, category);
 
     const serie = {
       name: name,
@@ -34,6 +36,12 @@ export const NewSerie = () => {
     } else {
       alert('Ocurrió un error al crear la serie');
     }
+  }
+
+  if (user?.id == 0) {
+    return (
+      <NotLogged />
+    )
   }
 
   return (

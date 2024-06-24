@@ -15,8 +15,6 @@ type Params = {
 export default async function SeriePage({ params: { seriesId }} : Params) {
   const serie: Serie = await getSerie(+seriesId);
 
-  console.log(serie);
-
   return (
     <div>
       <SeriesDetail serie={serie} />
